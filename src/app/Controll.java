@@ -8,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import model.Product;
+import test.App;
 
 public class Controll {
 	 @FXML private Button Gomb;
@@ -51,8 +52,7 @@ public class Controll {
 				 ItemQuantity.getText(), 
 				 ItemType.getText()
 				 );
-		 
-		 controller.App.saveProducts(p);
+		 System.out.println(p.toString());
 		 cleanFields();
 	    }
 	 
