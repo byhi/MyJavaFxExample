@@ -5,24 +5,30 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
-prefHeight="556.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controll">
-   <children>
-   
-      <Button fx:id="Gomb" layoutX="16.0" layoutY="182.0" mnemonicParsing="false" 
-      onAction="#handleSubmitButtonAction" text="Button" />
-      <ListView fx:id="lista" layoutX="16.0" layoutY="224.0" prefHeight="318.0" prefWidth="289.0" />
-      <TableView layoutX="330.0" layoutY="224.0" prefHeight="318.0" prefWidth="256.0">
-        <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
-        </columns>
-      </TableView>
-      <Button fx:id="addGomb" layoutX="334.0" layoutY="182.0" mnemonicParsing="false" onAction="#addButtonAction" text="Add" />
-      <Button fx:id="saveGomb" layoutX="532.0" layoutY="21.0" mnemonicParsing="false" onAction="#saveData" text="Mentés" />
-      <TextField fx:id="ItemName" layoutX="360.0" layoutY="21.0" />
-      <TextField fx:id="ItemCost" layoutX="360.0" layoutY="53.0" />
-      <TextField fx:id="ItemQuantity" layoutX="360.0" layoutY="85.0" />
-      <TextField fx:id="ItemType" layoutX="360.0" layoutY="117.0" />
-   </children>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+	minWidth="-Infinity" prefHeight="556.0" prefWidth="600.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="app.Controll">
+	<children>
+
+		<Button fx:id="Gomb" layoutX="16.0" layoutY="182.0"
+			mnemonicParsing="false" onAction="#handleSubmitButtonAction" text="Button" />
+		<ListView fx:id="lista" layoutX="16.0" layoutY="224.0"
+			prefHeight="318.0" prefWidth="289.0" />
+		<TableView layoutX="330.0" layoutY="224.0" prefHeight="318.0"
+			prefWidth="256.0">
+			<columns>
+				<TableColumn prefWidth="75.0" text="C1" />
+				<TableColumn prefWidth="75.0" text="C2" />
+			</columns>
+		</TableView>
+		<Button fx:id="addGomb" layoutX="334.0" layoutY="182.0"
+			mnemonicParsing="false" onAction="#addButtonAction" text="Add" />
+		<Button fx:id="saveGomb" layoutX="532.0" layoutY="21.0"
+			mnemonicParsing="false" onAction="#saveData" text="Mentés" />
+		<TextField fx:id="ItemName" layoutX="360.0" layoutY="21.0" />
+		<TextField fx:id="ItemCost" layoutX="360.0" layoutY="53.0" />
+		<TextField fx:id="ItemQuantity" layoutX="360.0" layoutY="85.0" />
+		<TextField fx:id="ItemType" layoutX="360.0" layoutY="117.0" />
+	</children>
 </Pane>
